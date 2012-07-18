@@ -1,17 +1,14 @@
 # Ruby client for Careerjet's API
 
-
 ## Installation
 
-With Bundler:
+```ruby
+# Gemfile
+gem 'careerjet'
+```
+
+## Usage
 
 ```ruby
-gem 'careerjet' # Gemfile
+Careerjet.search :en_US, :keywords => 'ruby', :page => 1
 ```
-
-Old-Style:
-
-```bash
-$ gem install careerjet
-```
-
