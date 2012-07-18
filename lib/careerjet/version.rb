@@ -1,3 +1,5 @@
 module Careerjet
-  VERSION = '0.0.1'.freeze
+  def self.version
+    '0.0.1'
+  end
 end

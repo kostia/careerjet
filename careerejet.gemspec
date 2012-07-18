@@ -2,7 +2,7 @@ require File.expand_path('../lib/careerjet/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'careerjet'
-  gem.version = Careerjet::VERSION
+  gem.version = Careerjet.version
   gem.description = "Ruby client for Careerjet's API"
   gem.summary = "Ruby client for Careerjet's API"
   gem.homepage = 'https://github.com/kostia/careerjet'
