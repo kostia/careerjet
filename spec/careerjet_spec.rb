@@ -10,6 +10,14 @@ describe Careerjet do
   end
 
   it 'should raise appropriate error on unknown locale' do
-    lambda { Careerjet.search(:foo_Bar, {}) }.should raise_error(Careerjet::UnknownLocale)
+    lambda do
+      Careerjet.search :foo_Bar, {}
+    end.should raise_error(Careerjet::UnknownLocale)
+  end
+
+  it 'should validate given params' do
+    lambda do
+      Careerjet.search :en_US, :keywords => 'rails', :foo => 'bar'
+    end.should raise_error(Careerjet::InvalidParam)
   end
 end
