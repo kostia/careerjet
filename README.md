@@ -1,5 +1,7 @@
 # Ruby client for Careerjet's API
 
+[![Build Status](https://secure.travis-ci.org/kostia/careerjet.png?branch=master)](http://travis-ci.org/kostia/careerjet)
+
 ## Installation
 
 ```ruby
