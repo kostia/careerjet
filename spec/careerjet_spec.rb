@@ -8,4 +8,8 @@ describe Careerjet do
         :body => MultiJson.encode(resp))
     Careerjet.search(:en_US, :keywords => 'rails', :page => 1).should == resp
   end
+
+  it 'should raise appropriate error on unknown locale' do
+    lambda { Careerjet.search(:foo_Bar, {}) }.should raise_error(Careerjet::UnknownLocale)
+  end
 end
