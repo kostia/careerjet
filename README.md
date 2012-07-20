@@ -34,7 +34,7 @@ Careerjet.search :en_US, :keywords => 'ruby', :page => 1
 
 `contractperiod`: Character code for contract work period. `f` - full time, `p` - part time, none - all work period.
 
-# License
+## License
 
 Copyright (c) 2012 Kostiantyn Kahanskyi
 
