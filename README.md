@@ -3,6 +3,8 @@
 [![Build Status](https://secure.travis-ci.org/kostia/careerjet.png?branch=master)](http://travis-ci.org/kostia/careerjet)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/kostia/careerjet)
 
+## This library is deprecated. Careejet has not enabled it's API for more than a year.
+
 ## Installation
 
 ```ruby
